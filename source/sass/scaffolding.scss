@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Lato";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.woff2") format("woff2"),
+       url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("//db.onlinewebfonts.com/t/0033a2fbc0329740fb86c1cfd134cb94.woff2") format("woff2"),
+       url("//db.onlinewebfonts.com/t/0033a2fbc0329740fb86c1cfd134cb94.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #494848;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+p,h1,h2,h3 {
+  margin: 0;
+  padding: 0;
+}

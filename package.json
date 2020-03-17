@@ -1,8 +1,8 @@
 {
-  "name": "Zeus",
+  "name": "Law",
   "version": "1.0.0",
   "private": true,
-  "description": "langing Zeus",
+  "description": "main page: Law",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "^9.5.1",

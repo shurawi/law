@@ -1,0 +1,40 @@
+.nav {
+  margin: 35px 69px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav__link--active {
+  color: #f4762a;
+}
+
+.nav__link--phone {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.nav__icon {
+  position: relative;
+  top: 5px;
+  margin-right: 10px;
+  color: #f4762a;
+}

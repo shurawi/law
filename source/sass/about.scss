@@ -1,0 +1,51 @@
+.about__title {
+  padding: 50px 0;
+  font-size: 26px;
+  line-height: 78px;
+  text-align: center;
+}
+
+.about__wrap {
+  margin: 0 168px;
+}
+
+.about__item {
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.about__text {
+  width: 65%;
+}
+
+.about__text--contract {
+  padding-right: 15px;
+}
+
+.about__text--journals {
+  padding-left: 15px;
+}
+
+.about__paragraph {
+  padding-bottom: 30px;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Lato", "Arial", sans-serif;
+}
+
+.about__link {
+  color: #f4762a;
+  background-color: #ffffff;
+  outline: 1px solid #f4762a;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #f4762a;
+  }
+
+  &:active {
+    color: rgba(244, 118, 60, 1);
+    background-color: #ffffff;
+    outline: 1px solid rgba(244, 118, 60, 0.6);
+  }
+}

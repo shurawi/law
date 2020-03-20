@@ -17,7 +17,6 @@
 .form__title {
   display: inline-block;
   margin: 20px 0 0 135px;
-
   font-size: 26px;
   line-height: 78px;
   font-weight: 600;
@@ -74,6 +73,18 @@
 .appointment__link {
   margin-top: 30px;
   margin-left: 30px;
-  color: #ffffff;
-  background-color: #f4762a;
+  color: #f4762a;
+  background-color: #ffffff;
+  outline: 1px solid #f4762a;
+
+    &:hover {
+      color: #ffffff;
+      background-color: #f4762a;
+    }
+
+    &:active {
+      color: rgba(244, 118, 60, 1);
+      background-color: #ffffff;
+      outline: 1px solid rgba(244, 118, 60, 0.6);
+    }
 }

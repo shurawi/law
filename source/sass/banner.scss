@@ -43,5 +43,15 @@
 .banner__link {
   margin: 30px 0 0 30px;
   color: inherit;
-  background: #f4762a;
+  background-color: #f4762a;
+
+  &:hover {
+    color: #f4762a;
+    background-color: #ffffff;
+  }
+
+  &:active,
+  &:focus {
+    outline: 2px solid #000000;
+  }
 }

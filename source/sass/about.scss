@@ -14,8 +14,12 @@
   display: flex;
 }
 
+.about__pic {
+  width: 50%;
+}
+
 .about__text {
-  width: 65%;
+  width: 50%;
 }
 
 .about__text--contract {
@@ -36,16 +40,17 @@
 .about__link {
   color: #f4762a;
   background-color: #ffffff;
-  outline: 1px solid #f4762a;
+  outline: 2px solid #f4762a;
 
   &:hover {
     color: #ffffff;
     background-color: #f4762a;
   }
 
-  &:active {
+  &:active,
+  &:focus {
     color: rgba(244, 118, 60, 1);
     background-color: #ffffff;
-    outline: 1px solid rgba(244, 118, 60, 0.6);
+    outline: 2px solid rgba(244, 118, 60, 0.6);
   }
 }

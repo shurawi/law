@@ -1,13 +1,14 @@
 .nav {
   margin: 35px 69px;
   display: flex;
-  justify-content: space-between;
+
 }
 
 .nav__list {
   margin: 0 auto;
+  padding: 0;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   list-style: none;
   font-size: 18px;
@@ -21,6 +22,15 @@
 .nav__link {
   text-decoration: none;
   color: #000000;
+
+  &:hover {
+    color: #f4762a;
+  }
+
+  &:active,
+  &:focus {
+    text-decoration: underline;
+  }
 }
 
 .nav__link--active {
